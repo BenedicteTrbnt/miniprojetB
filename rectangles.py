@@ -63,6 +63,7 @@ plt.grid()
 plt.plot()
 plt.show()
 
+
 # graphiques comparaison des temps d'éxecution
 methods = ['Python rectangle', 'NumPy rectangle', 'Python rectangle', 'NumPy rectangle']
 times= [time_taken_rect1000, time_taken_rect_numpy1000, time_taken_rect10000, time_taken_rect_numpy10000]
