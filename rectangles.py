@@ -50,7 +50,6 @@ print(f"L'air sous la courbe d'après la méthode des rectangles : ", area_recta
 print(f"Le temps pour 1000 itérations : ", time_taken_rect_numpy1000)
 print(f"L'erreur entre la méthode des rectangles en python et celle en numpy est : ", erreur(a, b, c, d, x_start, x_end, n))
 
-
 # afficage de la courbe et des rectangles
 x = np.linspace(x_start,x_end+1,n)
 y=polinomial_tercer_orden(x, a, b, c, d)
